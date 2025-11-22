@@ -28,7 +28,7 @@ export function Dashboard() {
     <div className="space-y-6">
       <div>
         <h2 className="text-3xl font-bold text-black">Dashboard</h2>
-        <p className="text-gray-600">Overview of your payroll and treasury</p>
+        <p className="text-gray-600">Overview of your payroll & treasury</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
