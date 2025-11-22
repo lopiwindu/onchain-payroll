@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 
-export function UserSettings(): JSX.Element {
+export function UserSettings() {
   const [notifications, setNotifications] = useState<boolean>(true)
   const [autoPayroll, setAutoPayroll] = useState<boolean>(false)
   const [twoFactor, setTwoFactor] = useState<boolean>(false)

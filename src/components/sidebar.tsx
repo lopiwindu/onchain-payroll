@@ -8,7 +8,7 @@ interface SidebarProps {
   setActiveTab: (tab: string) => void
 }
 
-export function Sidebar({ activeTab, setActiveTab }: SidebarProps): JSX.Element {
+export function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
     { id: 'treasury', label: 'Treasury', icon: Wallet },

@@ -41,7 +41,7 @@ const accounts: TreasuryAccount[] = [
   },
 ]
 
-export function TreasuryAccounts(): JSX.Element {
+export function TreasuryAccounts() {
   const copyAddress = (address: string): void => {
     navigator.clipboard.writeText(address)
   }

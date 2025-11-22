@@ -56,7 +56,7 @@ const employees: Employee[] = [
   },
 ]
 
-export function EmployeeManagement(): JSX.Element {
+export function EmployeeManagement() {
   const getInitials = (name: string): string => {
     return name
       .split(' ')

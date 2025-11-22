@@ -64,7 +64,7 @@ const payments: Payment[] = [
   },
 ]
 
-export function PaymentHistory(): JSX.Element {
+export function PaymentHistory() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">

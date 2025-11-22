@@ -23,7 +23,7 @@ const treasuryData = [
   { month: 'Jun', balance: 258000 },
 ]
 
-export function Dashboard(): JSX.Element {
+export function Dashboard() {
   return (
     <div className="space-y-6">
       <div>
