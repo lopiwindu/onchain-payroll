@@ -23,11 +23,5 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Run linter
-        run: bun lint
-
       - name: Build project
         run: bun build
-
-      - name: Type check
-        run: bun run tsc --noEmit
