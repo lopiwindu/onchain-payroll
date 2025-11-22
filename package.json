@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "bun --bun run next dev",
     "build": "bun run next build",
-    "start": "bun run next start",
-    "lint": "bun run next lint"
+    "start": "bun run next start"
   },
   "dependencies": {
     "@farcaster/miniapp-sdk": "^0.2.1",
